@@ -1,0 +1,8 @@
+E:\源码\win\code test\bin\Debug\code test.exe.config
+E:\源码\win\code test\obj\Debug\code_test.Properties.Resources.resources
+E:\源码\win\code test\obj\Debug\code test.csproj.GenerateResource.Cache
+E:\源码\win\code test\obj\Debug\code_test.Form1.resources
+E:\源码\win\code test\bin\Debug\code test.exe
+E:\源码\win\code test\bin\Debug\code test.pdb
+E:\源码\win\code test\obj\Debug\code test.exe
+E:\源码\win\code test\obj\Debug\code test.pdb

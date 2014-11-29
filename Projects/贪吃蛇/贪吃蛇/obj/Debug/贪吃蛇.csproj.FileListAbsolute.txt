@@ -1,0 +1,9 @@
+E:\源码\win\贪吃蛇\贪吃蛇\bin\Debug\贪吃蛇.exe.config
+E:\源码\win\贪吃蛇\贪吃蛇\bin\Debug\贪吃蛇.exe
+E:\源码\win\贪吃蛇\贪吃蛇\bin\Debug\贪吃蛇.pdb
+E:\源码\win\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.csprojResolveAssemblyReference.cache
+E:\源码\win\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.Form1.resources
+E:\源码\win\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.Properties.Resources.resources
+E:\源码\win\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.csproj.GenerateResource.Cache
+E:\源码\win\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.exe
+E:\源码\win\贪吃蛇\贪吃蛇\obj\Debug\贪吃蛇.pdb

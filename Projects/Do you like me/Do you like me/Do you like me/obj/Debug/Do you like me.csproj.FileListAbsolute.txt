@@ -1,0 +1,9 @@
+E:\源码\win\Do you like me\Do you like me\Do you like me\bin\Debug\Do you like me.exe.config
+E:\源码\win\Do you like me\Do you like me\Do you like me\bin\Debug\Do you like me.exe
+E:\源码\win\Do you like me\Do you like me\Do you like me\bin\Debug\Do you like me.pdb
+E:\源码\win\Do you like me\Do you like me\Do you like me\obj\Debug\Do you like me.csprojResolveAssemblyReference.cache
+E:\源码\win\Do you like me\Do you like me\Do you like me\obj\Debug\Do_you_like_me.Form1.resources
+E:\源码\win\Do you like me\Do you like me\Do you like me\obj\Debug\Do_you_like_me.Properties.Resources.resources
+E:\源码\win\Do you like me\Do you like me\Do you like me\obj\Debug\Do you like me.csproj.GenerateResource.Cache
+E:\源码\win\Do you like me\Do you like me\Do you like me\obj\Debug\Do you like me.exe
+E:\源码\win\Do you like me\Do you like me\Do you like me\obj\Debug\Do you like me.pdb

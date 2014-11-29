@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代码测试", "代码测试.csproj", "{64628714-3260-4D2C-90DE-1E01A9CBF0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64628714-3260-4D2C-90DE-1E01A9CBF0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64628714-3260-4D2C-90DE-1E01A9CBF0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64628714-3260-4D2C-90DE-1E01A9CBF0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64628714-3260-4D2C-90DE-1E01A9CBF0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

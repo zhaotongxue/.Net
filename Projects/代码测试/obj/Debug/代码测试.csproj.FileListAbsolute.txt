@@ -1,0 +1,7 @@
+E:\源码\win\代码测试\bin\Debug\代码测试.exe.config
+E:\源码\win\代码测试\bin\Debug\代码测试.exe
+E:\源码\win\代码测试\bin\Debug\代码测试.pdb
+E:\源码\win\代码测试\obj\Debug\代码测试.Form1.resources
+E:\源码\win\代码测试\obj\Debug\代码测试.csproj.GenerateResource.Cache
+E:\源码\win\代码测试\obj\Debug\代码测试.exe
+E:\源码\win\代码测试\obj\Debug\代码测试.pdb

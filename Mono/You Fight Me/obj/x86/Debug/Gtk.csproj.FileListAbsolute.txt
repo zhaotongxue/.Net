@@ -1,0 +1,1 @@
+E:\源码\DotNet\Mono\GtkWindows\obj\x86\Debug\Gtk.csprojResolveAssemblyReference.cache
