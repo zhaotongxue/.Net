@@ -1,0 +1,9 @@
+E:\Source\DotNet\Projects\Web\Web\bin\Debug\Web.exe.config
+E:\Source\DotNet\Projects\Web\Web\bin\Debug\Web.exe
+E:\Source\DotNet\Projects\Web\Web\bin\Debug\Web.pdb
+E:\Source\DotNet\Projects\Web\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\Source\DotNet\Projects\Web\Web\obj\Debug\Web.Form1.resources
+E:\Source\DotNet\Projects\Web\Web\obj\Debug\Web.Properties.Resources.resources
+E:\Source\DotNet\Projects\Web\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+E:\Source\DotNet\Projects\Web\Web\obj\Debug\Web.exe
+E:\Source\DotNet\Projects\Web\Web\obj\Debug\Web.pdb

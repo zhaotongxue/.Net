@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <form id="f">
+            <div >
+                <input type="text" id="t" aria-multiline="true" />
+        </div>
+        <input type="button" value="提交" id="sub"/>
+    </form>
+    <div id="d"></div>
+</body>
+   <!--<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>-->
+ <script type="text/javascript" >
+                  document.getElementById("sub").onclick = function () {
+                     document.getElementById("d").innerHTML += "<li>发送了</li>";
+                     var xmlRequest = new XMLHttpRequest();
+                     xmlRequest.onreadystatechange = function () {
+                         if (xmlRequest.status == 200 & xmlRequest.readyState == 4) {
+                             text = xmlRequest.responseText;
+                             document.getElementById("d").innerHTML += "<li>" + text + "</li>";
+                         }
+             }
+                     xmlRequest.open("post", "index.ashx?t=" + document.getElementById("t").value, true);
+                     xmlRequest.send();
+         }
+ </script>
+</html>

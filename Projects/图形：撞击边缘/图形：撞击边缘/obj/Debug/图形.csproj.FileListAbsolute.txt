@@ -1,0 +1,9 @@
+E:\Source\DotNet\Projects\图形\图形\bin\Debug\图形.exe.config
+E:\Source\DotNet\Projects\图形\图形\bin\Debug\图形.exe
+E:\Source\DotNet\Projects\图形\图形\bin\Debug\图形.pdb
+E:\Source\DotNet\Projects\图形\图形\obj\Debug\图形.csprojResolveAssemblyReference.cache
+E:\Source\DotNet\Projects\图形\图形\obj\Debug\图形.Form1.resources
+E:\Source\DotNet\Projects\图形\图形\obj\Debug\图形.Properties.Resources.resources
+E:\Source\DotNet\Projects\图形\图形\obj\Debug\图形.csproj.GenerateResource.Cache
+E:\Source\DotNet\Projects\图形\图形\obj\Debug\图形.exe
+E:\Source\DotNet\Projects\图形\图形\obj\Debug\图形.pdb

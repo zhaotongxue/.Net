@@ -24,42 +24,58 @@ namespace Greedy_Snake
         int grade = 0;
         //是否失败
         bool fail = false;
+        //设定有几个方格
+        static int zoneHSize,zoneVSize, rangeSize;
+        //标题名称
+        static string titleName;
+        //速度
+        static int speed;
         public MainForm()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            this.Text = titleName;
+            t.Interval = speed;
+        }
+        public static void setSpeed(int speedIn) {
+            speed = speedIn;
+        }
+        public static void SetName(int zoneHorizontal, int zoneVertial,string name) {
+            MainForm.zoneVSize = zoneVertial;
+            MainForm.zoneHSize = zoneHorizontal;
+            MainForm.titleName = name;
         }
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-
         }
         Font f = new Font("宋体", 30);
         private void Form1_Load(object sender, EventArgs e)
         {
+         
             s = this.Size;
             //初始化蛇长
-            snake.Add(0);
-            snake.Add(1);
-            snake.Add(2);
-            snake.Add(3);
-            snake.Add(4);
+            snake.Add(300);
+            snake.Add(301);
+            snake.Add(302);
+            snake.Add(303);
+            snake.Add(304);
             //初始方向
             direction = Keys.Right;
-            Point p = new Point(45,45);
-            for (int i = 0; i < 16; i++) {
-                for (int c = 0; c < 36; c++) {
+            Point p = new Point(30,30);
+            for (int i = 0; i < zoneVSize; i++) {
+                for (int c = 0; c < zoneHSize; c++) {
                     Label b = new Label();
                     //b.ReadOnly = true;
                     b.Font = f;
-                    b.Size = new Size(30, 30);
+                    b.Size = new Size(15, 15);
                     b.Location = p;
                     b.BackColor = Color.White;
                     labelList.Add(b);
                     //labelList[i*(this.Width/30-3)+c] = b;
                     this.Controls.Add(b);
-                    p.X += 29;
+                    p.X += 16;
                 }
-                p.X = 45;
-                p.Y += 29;
+                p.X = 30;
+                p.Y += 16;
             }
             //食物
             Random r = new Random();
@@ -102,6 +118,7 @@ namespace Greedy_Snake
                     KeyDownAndTick();
                 } 
             }
+            //KeyDownAndTick();
         }
         //吃到食物时
         protected void ate() {
@@ -114,13 +131,13 @@ namespace Greedy_Snake
                 ate = true;
                 snake.Add(snake[snake.Count - 1] + 1);
             } 
-            else if (direction == Keys.Up && snake[snake.Count - 1] -36 == food) {
+            else if (direction == Keys.Up && snake[snake.Count - 1] -zoneHSize == food) {
                 ate = true;
-                snake.Add(snake[snake.Count - 1] - 36);
+                snake.Add(snake[snake.Count - 1] - zoneHSize);
             } 
-            else if (direction == Keys.Down && snake[snake.Count - 1] +36 == food) {
+            else if (direction == Keys.Down && snake[snake.Count - 1] +zoneHSize == food) {
                 ate = true;
-                snake.Add(snake[snake.Count - 1] +36);
+                snake.Add(snake[snake.Count - 1] +zoneHSize);
             }
             if (ate) {
                 Random r = new Random();
@@ -151,39 +168,37 @@ namespace Greedy_Snake
             ate();
             //尾巴丢了
             labelList[snake[0]].BackColor = Color.White ;
-                snake.Remove(snake[0]);
+            snake.Remove(snake[0]);
             labelList[food].BackColor = Color.Red;
-
             if (direction == Keys.Left) {
                 snake.Add(snake[snake.Count-1] - 1);
-                if (snake[snake.Count - 1]%36 ==35||snake[snake.Count-1]<0) {
-                    snake[snake.Count - 1] += 36; 
+                if (snake[snake.Count - 1]%zoneHSize ==zoneHSize-1||snake[snake.Count-1]<0) {
+                    snake[snake.Count - 1] += zoneHSize; 
                 }
             }
             if (direction == Keys.Right) {
                 labelList[snake[0]].BackColor = Color.White ;
                 snake.Add(snake[snake.Count-1] + 1);
-                if (snake[snake.Count-1]%36 ==0) {
-                    snake[snake.Count - 1] -= 36; 
+                if (snake[snake.Count-1]%zoneHSize ==0) {
+                    snake[snake.Count - 1] -= zoneHSize; 
                 }
             }
             if (direction == Keys.Up) {
-                snake.Add(snake[snake.Count - 1] - 36);
-                if (snake[snake.Count - 1] % 36 < 0) {
-                    snake[snake.Count - 1] += 16 * 36; 
+                snake.Add(snake[snake.Count - 1] - zoneHSize);
+                if (snake[snake.Count - 1] % zoneHSize < 0) {
+                    snake[snake.Count - 1] += zoneVSize* zoneHSize; 
                 }
             }
             if (direction == Keys.Down) {
-                snake.Add(snake[snake.Count - 1] + 36);
-                if (snake[snake.Count - 1] / 36 >= 16)
+                snake.Add(snake[snake.Count - 1] + zoneHSize);
+                if(snake[snake.Count-1]>zoneVSize*zoneHSize)
                 {
-                    snake[snake.Count - 1] -= 16 * 36;
+                    snake[snake.Count - 1] -= zoneVSize *zoneHSize;
                 }
             }
-
             //把蛇画出来
             foreach (int i in snake) {
-                labelList[i].BackColor = Color.Black; 
+                labelList[i].BackColor = Color.Green; 
             }
         }
 
@@ -191,8 +206,13 @@ namespace Greedy_Snake
         {
             //Form1_Load(sender, e);
             //this.Dispose(); 
-            MainForm m= new MainForm();
-            m.Show();
+            snake.RemoveRange(0, snake.Count);
+            snake.Add(300);
+            snake.Add(301);
+            snake.Add(302);
+            snake.Add(303);
+            snake.Add(304);
+            grade = 0;
         }
 
         private void 暂停pToolStripMenuItem_Click(object sender, EventArgs e)
@@ -213,6 +233,7 @@ namespace Greedy_Snake
         private void 退出qToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+            base.Close();
         }
 
         private void 关于本软件ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -221,13 +242,21 @@ namespace Greedy_Snake
             t.Enabled = false;
             a.ShowDialog();
             t.Enabled = true;
-
         }
 
         static Size s = new Size();
         private void MainForm_Resize(object sender, EventArgs e)
         {
             this.Size = s;
+        }
+
+        private void MainForm_Shown(object sender, EventArgs e)
+        {
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

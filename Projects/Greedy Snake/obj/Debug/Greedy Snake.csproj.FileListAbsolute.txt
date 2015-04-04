@@ -1,10 +1,13 @@
 E:\Source\DotNet\Projects\Greedy Snake\bin\Debug\Greedy Snake.exe.config
 E:\Source\DotNet\Projects\Greedy Snake\bin\Debug\Greedy Snake.exe
 E:\Source\DotNet\Projects\Greedy Snake\bin\Debug\Greedy Snake.pdb
-E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy Snake.csprojResolveAssemblyReference.cache
 E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy_Snake.Properties.Resources.resources
 E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy Snake.csproj.GenerateResource.Cache
 E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy Snake.exe
 E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy Snake.pdb
 E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy_Snake.About_GreedySnake.resources
 E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy_Snake.MainForm.resources
+E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy_Snake.ConfigForm.resources
+E:\Source\DotNet\Projects\Greedy Snake\bin\Debug\Greedy Snake.exe.CodeAnalysisLog.xml
+E:\Source\DotNet\Projects\Greedy Snake\bin\Debug\Greedy Snake.exe.lastcodeanalysissucceeded
+E:\Source\DotNet\Projects\Greedy Snake\obj\Debug\Greedy Snake.csprojResolveAssemblyReference.cache

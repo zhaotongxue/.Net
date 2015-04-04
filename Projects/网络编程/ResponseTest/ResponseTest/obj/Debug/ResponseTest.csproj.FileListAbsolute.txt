@@ -1,0 +1,5 @@
+E:\Source\DotNet\Projects\ResponseTest\ResponseTest\bin\ResponseTest.dll
+E:\Source\DotNet\Projects\ResponseTest\ResponseTest\bin\ResponseTest.pdb
+E:\Source\DotNet\Projects\ResponseTest\ResponseTest\obj\Debug\ResponseTest.csprojResolveAssemblyReference.cache
+E:\Source\DotNet\Projects\ResponseTest\ResponseTest\obj\Debug\ResponseTest.dll
+E:\Source\DotNet\Projects\ResponseTest\ResponseTest\obj\Debug\ResponseTest.pdb

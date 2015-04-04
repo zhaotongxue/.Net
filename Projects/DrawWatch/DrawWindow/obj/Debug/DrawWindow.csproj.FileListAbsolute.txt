@@ -1,0 +1,11 @@
+E:\源码\win\DrawWindow\DrawWindow\bin\Debug\DrawWindow.exe.config
+E:\源码\win\DrawWindow\DrawWindow\bin\Debug\DrawWindow.exe
+E:\源码\win\DrawWindow\DrawWindow\bin\Debug\DrawWindow.pdb
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.csprojResolveAssemblyReference.cache
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.Properties.Resources.resources
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.csproj.GenerateResource.Cache
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.exe
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.pdb
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.DrawForm.resources
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.画动态圆.resources
+E:\源码\win\DrawWindow\DrawWindow\obj\Debug\DrawWindow.watch.resources
